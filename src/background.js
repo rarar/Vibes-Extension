@@ -53,7 +53,7 @@ function computeRunningAverage(score) {
     "currentVibe": currentVibe,
     "score": score
   }, ()=> {
-    //alert(currentVibe);
+    // TODO: pass currentVibe and score to the inContent function
     chrome.tabs.executeScript({
       code: `(${ inContent })()`
     }, ()=> {
