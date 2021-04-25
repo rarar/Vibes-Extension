@@ -19,7 +19,7 @@ export default [
     plugins: [
       copy({
         targets: [
-          { src: ["client/index.html", "client/client.js", "client/styles.css"], dest: "dist" }],
+          { src: ["client/index.html", "client/client.js", "client/styles.css", "client/vibes-16x16.png", "client/vibes-128x128.png", "client/vibes-48x48.png"], dest: "dist" }],
       }),
       json(),
       commonjs(),

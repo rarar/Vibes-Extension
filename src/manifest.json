@@ -7,6 +7,7 @@
     "http://*/",
     "https://*/",
     "*://*/",
+    "<all_urls>",
     "activeTab",
     "declarativeContent",
     "storage",
@@ -21,7 +22,11 @@
     "default_title": "Vibes",
     "default_popup": "index.html"
   },
-  "icons": {},
+  "icons": {
+    "16": "vibes-16x16.png",
+    "48": "vibes-48x48.png",
+    "128": "vibes-128x128.png"
+  },
   "content_scripts": [{
     "matches": ["<all_urls>"],
     "js": ["client.js"]

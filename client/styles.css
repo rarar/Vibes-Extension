@@ -1,5 +1,84 @@
-html, body {
-  width: 240;
-  height: 360px;
-  font-family: "Source Sans Pro", sans-serif;
+body {
+  width: 324px;
+  height: auto ;
+  font-family: Helvetica, sans-serif;
+  padding: 8px;
+  position: relative;
+  margin: 0;
+  min-height: 640px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+header {
+
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  line-height: 2.5rem;
+}
+
+dl {
+  margin: 24px 16px;
+}
+
+dt {
+  font-size: 14px;
+  margin-bottom: 8px
+}
+
+dd {
+  font-size: 24px;
+  margin: 0 0 24px 0;
+}
+
+dd#desc {
+  font-size: 14px;
+  color: #828282;
+  line-height: 1.125rem;
+}
+
+dd#desc a {
+  display: block;
+  color: #333;
+  margin: 8px 0 0 0;
+}
+
+div {
+  padding: 0 16px 16px 16px;
+}
+
+div a {
+  display: block;
+  width: 100%;
+  margin: 16px auto;
+  height: auto;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 16px 0;
+  border: #333 2px solid;
+}
+
+div a#reset {
+  background: #fff;
+  color: #333;
+}
+
+div a#toggle-banner:hover {
+  background: #fff;
+  color: #333;
+}
+
+div a#reset:hover {
+  background: #333;
+  color: #fff;
 }

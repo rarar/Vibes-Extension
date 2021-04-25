@@ -10,8 +10,25 @@
 </head>
 
 <body>
-  <h2>The vibe of this page is <span id="vibeText"></span></h2>
-  <h2>The vibe of your browsing to-date <span id="scoreText"></span></h2>
+  <header id="vibe-header">
+    <h1 id="text-vibe"></h1>
+  </header>
+  <main>
+    <dl>
+      <dt>Sentiment score of this page:</dt>
+      <dd id="score-text">Thinking…</dd>
+      <dt>Average Sentiment over time</dt>
+      <dd id="avg-text">Thinking…</dd>
+      <dt>What do these numbers mean?</dt>
+      <dd id="desc">To put it simply: the higher the score, the more positive the content on the page; the lower the score, the more negative the content on the page. That said, this is a poetic thought experiment inspired by doomscrolling. Natural Language Processing (NLP) is only as good as its training data, so don’t make any major life decisions based on the numbers, k?<br/>
+      <a id="learn-more" href="https://www.npmjs.com/package/sentiment">Learn more about the Sentiment library</a>
+      </dd>
+    </dl>
+  </main>
+  <div>
+    <a href="#" id="toggle-banner">Hide Banner</a>
+    <a href="#" id="reset">Reset Average</a>
+  </div>
   <script src="client.js"></script>
 </body>
 
