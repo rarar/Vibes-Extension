@@ -1,4 +1,10 @@
 # Vibes
+## About Vibes
+
+Vibes is a poetic response to doomscrolling. This browser extension (optimized for chrome), takes your browsing activity and runs it through a sentiment analysis library in order to tell you whether or not your content is affecting your mood. The piece serves as a commentary both on doomscrolling culture but also on affective computing and its touted accuracy/inaccuracy. The output is not always accurate and can often serve as a simplistic reflection on human culture and nuance.
+
+![Screenshot of Vibes](vibes-chrome-store-screenshot.png)
+
 
 ## Install
 

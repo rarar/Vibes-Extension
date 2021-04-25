@@ -1,24 +1,19 @@
 {
   "name": "Vibes",
-  "version": "0.1.0",
+  "version": "0.0.0.1",
   "description": "How's your browser activity treating you",
   "author": "Raphael Arar",
   "permissions": [
-    "http://*/",
-    "https://*/",
-    "*://*/",
     "<all_urls>",
     "activeTab",
-    "declarativeContent",
     "storage",
-    "tabs",
-    "background"
+    "tabs"
   ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "action": {
+  "browser_action": {
     "default_title": "Vibes",
     "default_popup": "index.html"
   },
